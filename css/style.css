@@ -187,12 +187,12 @@ img {
   padding-bottom: 188px;
     padding-top: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/hero-bg.jpg);
+    max-width: 1440px;
     background-size: cover;
-    max-width: 1140px;
     background-repeat: no-repeat;
     background-position: center;
     background-color: var(--primary-text-color);
-    
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -251,6 +251,7 @@ img {
 .feauturs-list{
     display: flex;
     gap: 24px;
+    
 
 }
 .features-item{
@@ -490,7 +491,7 @@ padding-bottom: 120px;
     width: 100%;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    fill:  var(--fill-grey);
+   color:  var(--fill-grey);
 
 }
 
@@ -501,9 +502,11 @@ padding-bottom: 120px;
 
 .customers-list-icon:hover,
 .customers-list-icon:focus{
- fill : var(--ocean-color);
+color : var(--ocean-color);
 }
-
+.customers-list-icon{
+    fill: currentColor;
+}
 
 
 /*!============== Section 3 =================/*/
