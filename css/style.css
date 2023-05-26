@@ -248,23 +248,17 @@ img {
 
 
 
-.feauturs-list{
+
+.feauturs-container{
     display: flex;
-    gap: 24px;
-    
-
-}
-.features-item{
-height: 112px;
-display: flex;
-justify-content: center;
-align-items: center;
-    width: calc((100%-72px)/4);
+    align-items: center;
+    justify-content: center;
+    height: 112px;
     background: #F4F4FD;
-margin-bottom: 8px;
-
-
-}
+    border-radius: 4px;
+    margin-bottom: 8px;
+    
+   }
  .visually-hidden {
     position: absolute;
     white-space: nowrap;
