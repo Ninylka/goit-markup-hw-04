@@ -498,11 +498,13 @@ padding-bottom: 120px;
 .customers-link:hover,
 .customers-link:focus{
     border-color: var(--ocean-color);
+    color: var(--ocean-color);
 }
 
 .customers-list-icon:hover,
 .customers-list-icon:focus{
 color : var(--ocean-color);
+
 }
 .customers-list-icon{
     fill: currentColor;
